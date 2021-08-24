@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-list{
+    display: inline-block;
+    margin: 0 16px;
+    
+}
+.main-nav-ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.navbar{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 50px);
+    vertical-align: middle; 
+    font-size: 1.5rem;
+    padding:5px;
+    
+}
+.main-nav{
+    background-color:greenyellow;
+    color: green;
+    text-decoration: None;
+}
+
+.main-nav_item{
+    text-decoration: None;
+    font-weight: bold;
+    color: gold;
+    height: 22px;
+    display: inline-block;
+}
+.istriangle-submit{
+    background: greenyellow;
+    font: inherit;
+    border: 2px solid rgb(2, 37, 2);
+    padding:8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.istriangle-submit:hover,
+.istriangle-submit:active{
+    background: white;
+    color:black
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+  }
+.main-header{
+    padding:30px;
+    margin: 8px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 20rem;
+    background-color: aqua;
+    border-radius: 25%;
+}
+.output{
+    padding: 20px;
+}
+.control-label{
+    color: rgb(50, 77, 226);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.output-con{
+    font-size: 1.5rem;
+    text-align: center;
+}
