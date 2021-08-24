@@ -1,4 +1,3 @@
-
 const button = document.querySelector(".istriangle-submit");
 const output = document.querySelector("#output");
 let sum = 0;
@@ -19,19 +18,12 @@ button.addEventListener('click',function(){
 const input2 = Number(document.querySelector(".angle2").value);
 const input3 = Number(document.querySelector(".angle3").value);
 
-    sum = input3 + input2 + input1
+    sum = (input3 + input2 + input1)/2
     console.log("sum is",sum);
-    if(sum === 180 && input1 > 0 && input2 > 0 && input3 > 0) 
-    {
-        output.textContent="The triangle is valid";
-        styling();
-        
-    }
-    else
-    {
-        output.textContent="The triangle is not valid";
-        styling();
-    }
+    area = (sum*(sum-input1)*(sum-input2)*(sum-input3))**0.5
+    arearound = Math.round(area*100)/100;
+    output.textContent = "The area of the triangle is: " + arearound;
+    styling();
 
 });
 
