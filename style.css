@@ -120,3 +120,26 @@ input[type=number] {
     background: white;
     color:black
 }
+.main-footer{
+    background: black;
+    margin-top: 48px;
+    padding: 16px;
+
+}
+.footer-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer-list-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+.footer-list__text{
+    color: white;
+}
+.footer-list__text:hover,
+.footer-list__text:active{
+    color: yellowgreen;
+}
